@@ -1,0 +1,28 @@
+/* === RESETS === */
+*, *::before, *::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial;
+    scroll-behavior: smooth;
+}
+html{font-size: 62.5%;}
+body{
+    font-size: 1.6rem;
+    background-color: var(--bgColor);
+}
+a{text-decoration: none;}
+ul,ol{list-style: none;}
+input,textarea,button,select{
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+table, tr, td{
+    border: none;
+    border-collapse: collapse;
+}
+:root{
+    --bgColor: #faf9f8;
+}
+/* === UTILIDADES === */
