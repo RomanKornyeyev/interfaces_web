@@ -1,9 +1,17 @@
+/*  
+    FONTS:
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+*/
+
 /* === RESETS === */
 *, *::before, *::after{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: arial;
+    /* font-family: arial; */
+    font-family: 'Nunito', sans-serif;
     scroll-behavior: smooth;
 }
 html{font-size: 62.5%;}
@@ -11,7 +19,10 @@ body{
     font-size: 1.6rem;
     background-color: var(--bgColor);
 }
-a{text-decoration: none;}
+a{
+    text-decoration: none;
+    color: var(--secondaryColor);
+}
 ul,ol{list-style: none;}
 input,textarea,button,select{
     border: none;
@@ -22,7 +33,77 @@ table, tr, td{
     border: none;
     border-collapse: collapse;
 }
+img{width: 100%;}
+h1{font-size: 4rem;}
+h2{font-size: 3rem;}
+h3{font-size: 2.5rem;}
+h4{font-size: 2rem;}
 :root{
+    --primaryColor: #fff;
+    --secondaryColor: #000;
     --bgColor: #faf9f8;
+    --footer: #e4e4e4;
 }
+
 /* === UTILIDADES === */
+.limit-width{max-width: 120rem;}
+.img-fit{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* === HEADER === */
+.header{
+    width: 100%;
+    min-height: 11rem;
+    background-color: var(--primaryColor);
+    /* border: 1px solid black; */
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 11rem;
+    margin: 0 auto;
+    padding: 2rem;
+    /* border: 1px solid black; */
+}
+
+/* === NAV (HEADER) === */
+.menu{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* === NAV (BODY) === */
+.left-nav-link{    
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 4.5rem;
+    height: 4.5rem;
+    border: 1px solid black;
+}
+
+/* === FOOTER === */
+.footer{
+    width: 100%;
+    min-height: 11rem;
+    background-color: var(--footer);
+    /* border: 1px solid black; */
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 11rem;
+    margin: 0 auto;
+    padding: 2rem;
+    /* border: 1px solid black; */
+}
