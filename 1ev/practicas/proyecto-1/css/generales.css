@@ -25,7 +25,7 @@ a{
     color: var(--secondaryColor);
 }
 ul,ol{list-style: none;}
-input,textarea,button,select{
+input,textarea,button,select,a{
     border: none;
     outline: none;
     overflow: hidden;
@@ -41,6 +41,7 @@ h3{font-size: 2.5rem;}
 h4{font-size: 2rem;}
 :root{
     --primaryColor: #fff;
+    --almostWhite: #eeeeee;
     --strongGray1: #303030;
     --strongGray2: #252525;
     --strongGray3: #141414;
@@ -62,17 +63,21 @@ h4{font-size: 2rem;}
 .line-height-08{line-height: .8;}
 /* === HEADER === */
 .header{
+    position: relative;
     width: 100%;
     padding: 0 2rem;
     background-color: var(--primaryColor);
+    box-shadow: 0 4px 2px -2px var(--almostWhite);
+    z-index: 2;
     /* border: 1px solid black; */
 }
+
 .header__content{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
-    height: 15rem;
+    height: 10rem;
     gap: 2rem;
     width: 100%;
     margin: 0 auto;
@@ -92,10 +97,10 @@ h4{font-size: 2rem;}
     gap: 2rem;
 }
 .menu--central{width: 100%;}
-.menu__session{
+.menu__element{
     position: relative;
 }
-.menu__session::after{
+.menu__element::after{
     content: '';
     position: absolute;
     bottom: -.8rem;
@@ -106,7 +111,7 @@ h4{font-size: 2rem;}
     border-radius: 1rem;
     transition: width 175ms ease-out;
 }
-.menu__session:hover::after{
+.menu__element:hover::after{
     width: 100%;
 }
 

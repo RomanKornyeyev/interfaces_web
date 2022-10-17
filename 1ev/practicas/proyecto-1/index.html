@@ -31,24 +31,24 @@
     <!-- HEADER -->
     <header class="header">
         <div class="header__content ">
-            <ul class="menu" role="navigation" aria-label="cuenta y sobre nosotros">
-                <li class="menu__session"><a href="#">Link</a></li>
-                <li class="menu__session"><a href="#">Link</a></li>
-                <li class="menu__session"><a href="#">Link</a></li>
-            </ul>
+            <!-- <ul class="menu" role="navigation" aria-label="cuenta y sobre nosotros">
+                <li class="menu__element"><a href="#">Link</a></li>
+                <li class="menu__element"><a href="#">Link</a></li>
+                <li class="menu__element"><a href="#">Link</a></li>
+            </ul> -->
             <h1 class="logo">DevBoutique</h1>
-            <ul class="menu" role="navigation" aria-label="cuenta y sobre nosotros">
-                <li class="menu__session"><a href="#">Link</a></li>
-                <li class="menu__session"><a href="#">Link</a></li>
-                <li class="menu__session"><a href="#">Link</a></li>
+            <ul class="menu" role="navigation" aria-label="main">
+                <li class="menu__element"><a href="#">Hombre</a></li>
+                <li class="menu__element"><a href="#">Mujer</a></li>
+                <li class="menu__element"><a href="#">Divided</a></li>
+                <li class="menu__element"><a href="#">Niños</a></li>
+                <li class="menu__element"><a href="#">Accesorios</a></li>
+                <!-- <li class="menu__element"><a href="#">Link</a></li> -->
             </ul>
-            <ul class="menu menu--central" role="navigation" aria-label="main">
-                <li class="menu__session"><a href="#">Hombre</a></li>
-                <li class="menu__session"><a href="#">Mujer</a></li>
-                <li class="menu__session"><a href="#">Divided</a></li>
-                <li class="menu__session"><a href="#">Niños</a></li>
-                <li class="menu__session"><a href="#">Accesorios</a></li>
-                <!-- <li class="menu__session"><a href="#">Link</a></li> -->
+            <ul class="menu" role="navigation" aria-label="cuenta y sobre nosotros">
+                <li class="menu__element"><a href="#">Iniciar sesion</a></li>
+                <li class="menu__element"><a href="#">Favoritos</a></li>
+                <li class="menu__element"><a href="#">Carrito</a></li>
             </ul>
         </div>
     </header>
@@ -62,12 +62,12 @@
                     Una nueva colección que te encantará.
                     Nuevas prendas y accesorios de todos los lenguajes de programación.
                 </p>
-                <a href="articles.html" class="button button--large limit-width-15r">COMPRAR</a>
+                <a href="#categories" class="button button--large limit-width-15r">COMPRAR</a>
             </div>
         </section>
         <main class="main">
             <!-- CATEGORÍAS -->
-            <section class="section limit-width">
+            <section id="categories" class="section limit-width">
                 <h2 class="section__title">Nuestras categorías</h2>
                 <div class="section__content section__content--category">
                     <div class="category">
@@ -100,12 +100,6 @@
                         </a>
                         <h2 class="category__title">Tazas</h2>
                     </div>
-                    <!-- <div class="category">
-                        <a href="#" class="category__img-wrapper">
-                            <img class="img-fit" src="img/category_accesories.jpg" alt="t-shirt">
-                        </a>
-                        <h2 class="category__title">Accesorios</h2>
-                    </div> -->
                 </div>
             </section>
             <!-- LO MÁS VENDIDO -->
