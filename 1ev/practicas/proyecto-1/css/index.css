@@ -41,20 +41,28 @@
     padding: 3rem 0 2rem;
 }
 .section--bg1{
-    /* background-color: #ddf0f3; */
     background-color: #f4eddd;
-    height: 30rem;
 }
 .section__title{
     margin: 0 auto 2rem;
     text-align: center;
 }
 .section__content{
-    margin: 0 auto 3rem;
+    margin: 0 auto 2rem;
 }
 .section__content--category{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+}
+.section__content--recomendations{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.section__content--benefits{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 .category{

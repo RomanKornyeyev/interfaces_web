@@ -42,6 +42,7 @@ h4{font-size: 2rem;}
 :root{
     --primaryColor: #fff;
     --almostWhite: #eeeeee;
+    --lightGray1: #e6e6e6;
     --strongGray1: #303030;
     --strongGray2: #252525;
     --strongGray3: #141414;
@@ -143,7 +144,7 @@ h4{font-size: 2rem;}
 }
 
 /* === BOTONES E INPUTS === */
-.button{
+.btn{
     display: inline-block;
     user-select: none;
     cursor: pointer;
@@ -158,11 +159,52 @@ h4{font-size: 2rem;}
     background-color: var(--secondaryColor);
     transition: background-color 175ms ease-out;
 }
-.button:hover{
+.btn:hover, .btn:focus{
     color: var(--secondaryColor);
     background-color: var(--blueLight1);
 }
-.button--large{
+.btn--inv{
+    color: var(--secondaryColor);
+    background-color: var(--blueLight1);
+}
+.btn--inv:hover, .btn--inv:focus{
+    color: var(--primaryColor);
+    background-color: var(--secondaryColor);
+}
+.btn--outline{
+    background-color: transparent;
+    border: 1px solid var(--secondaryColor);
+    color: var(--secondaryColor);
+}
+.btn--outline:hover, .btn--outline:focus{
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+}
+.btn--md{
+    padding: .8rem 1.25rem;
+    font-size: 1.65rem;
+}
+.btn--lg{
     padding: 1rem 1.5rem;
     font-size: 1.8rem;
 }
+.btn--rad-1{
+    border-radius: 1rem;
+}
+/* === CARDS === */
+.card{
+    /* border: 1px solid black; */
+}
+.card__header{
+    width: 100%;
+    height: 30rem;
+    border-bottom: 1px solid var(--lightGray1);
+    /* border: 1px solid black; */
+}
+.card__body, .card__footer{background-color: var(--primaryColor);}
+.card__body{padding: 2rem 2rem 1rem}
+.card-title{
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+}
+.card__footer{padding: 1rem 2rem 2rem}
