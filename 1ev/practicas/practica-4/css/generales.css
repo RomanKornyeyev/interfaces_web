@@ -79,6 +79,9 @@ h4{font-size: 2rem;}
     padding: 2rem;
     /* border: 1px solid black; */
 }
+.logo{
+    color: var(--blueLight1);
+}
 
 /* === NAV (HEADER) === */
 .menu{

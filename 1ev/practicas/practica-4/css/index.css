@@ -12,8 +12,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: calc(100vh - 15rem);
-    background: url('../img/hero_redu.jpg');
+    height: 60rem;
+    background: url('../img/hero_600.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center right;
@@ -53,7 +53,7 @@
 }
 .section__content--category{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 2rem;
 }
 .category{
@@ -63,11 +63,12 @@
 .category__img-wrapper{
     display: block;
     height: 30rem;
+    overflow: hidden;
     /* border: 1px solid black; */
 }
-.category__img-wrapper:hover~.category__title{
-    text-decoration: underline;
-}
+.category__img-wrapper>img{transition: transform 250ms ease-out;}
+.category__img-wrapper:hover>img{transform: scale(1.2);}
+.category__img-wrapper:hover~.category__title{text-decoration: underline;}
 .category__title{
     line-height: 5rem;
     text-align: center;
