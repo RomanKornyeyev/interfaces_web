@@ -62,6 +62,7 @@ h5{font-size: 1.8rem;}
     --beige1: #f4eddd;
 
     --whiteBlue1: #f8f9fa;
+    --whiteBlue2: #eaeef1;
 }
 
 /* === UTILIDADES === */
@@ -74,7 +75,8 @@ h5{font-size: 1.8rem;}
     object-position: center;
 }
 .line-height-08{line-height: .8;}
-.test{color: #73729A;}
+.test{color: var(--yellow1);}
+.shadow-a{box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.582);}
 /* === HEADER === */
 .header{
     position: relative;
@@ -110,7 +112,6 @@ h5{font-size: 1.8rem;}
     align-items: center;
     gap: 2rem;
 }
-.menu--central{width: 100%;}
 .menu__element{
     position: relative;
 }
@@ -125,7 +126,7 @@ h5{font-size: 1.8rem;}
     border-radius: 1rem;
     transition: width 175ms ease-out;
 }
-.menu__element:hover::after{
+.menu__element:hover::after, .menu__element:focus::after{
     width: 100%;
 }
 
@@ -140,11 +141,12 @@ h5{font-size: 1.8rem;}
 }
 
 /* === FOOTER === */
+
 .footer{
     width: 100%;
     min-height: 11rem;
-    background-color: var(--strongGray1);
-    color: var(--primaryColor);
+    background-color: var(--gray);
+    color: var(--almostWhite);
     /* border: 1px solid black; */
 }
 .footer__content{
@@ -156,6 +158,9 @@ h5{font-size: 1.8rem;}
     margin: 0 auto;
     /* border: 1px solid black; */
 }
+.menu--footer{justify-content: space-between;}
+.menu--footer *{color: var(--almostWhite);}
+.menu--footer__element:hover, .menu--footer__element:focus{text-decoration: underline;}
 
 /* === BOTONES E INPUTS === */
 .btn{

@@ -42,7 +42,7 @@
 }
 .section--bg1{
     /* background-color: var(--beige1); */
-    background-color: var(--whiteBlue1);
+    background-color: var(--whiteBlue2);
     /* background-color: #ffffbf; */
     /* background-color: #d5eeff; */
     /* background-color: var(--lightGray1); */
@@ -68,6 +68,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5rem;
+    padding: 2rem 0;
 }
 .category{
     height: 35rem;
@@ -86,7 +87,6 @@
     line-height: 5rem;
     text-align: center;
 }
-.card{box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.582);}
 .card__header{overflow: hidden;}
 .card__header>img{transition: transform 250ms ease-out;}
 .card:hover img{transform: scale(1.1);}
