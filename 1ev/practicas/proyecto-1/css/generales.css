@@ -129,6 +129,9 @@ h5{font-size: 1.8rem;}
 .menu__element:hover::after, .menu__element:focus::after{
     width: 100%;
 }
+.svg-nav{
+    height: 2rem;
+}
 
 /* === NAV (BODY) === */
 .left-nav-link{    
