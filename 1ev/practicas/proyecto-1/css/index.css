@@ -14,7 +14,7 @@
     width: 100%;
     height: calc(100vh - 30rem);
     min-height: 48.5rem;
-    background: url('../img/hero_600.jpg');
+    background: url('../img/hero_600_v2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center right;
@@ -41,7 +41,11 @@
     padding: 3rem 0 2rem;
 }
 .section--bg1{
-    background-color: #f4eddd;
+    /* background-color: var(--beige1); */
+    background-color: var(--whiteBlue1);
+    /* background-color: #ffffbf; */
+    /* background-color: #d5eeff; */
+    /* background-color: var(--lightGray1); */
 }
 .section__title{
     margin: 0 auto 2rem;
@@ -82,6 +86,7 @@
     line-height: 5rem;
     text-align: center;
 }
+.card{box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.582);}
 .card__header{overflow: hidden;}
 .card__header>img{transition: transform 250ms ease-out;}
 .card:hover img{transform: scale(1.1);}

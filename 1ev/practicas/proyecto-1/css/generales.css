@@ -42,16 +42,26 @@ h3{font-size: 2.5rem;}
 h4{font-size: 2rem;}
 h5{font-size: 1.8rem;}
 :root{
+    /* LIGHTER */
     --primaryColor: #fff;
     --almostWhite: #eeeeee;
     --lightGray1: #e6e6e6;
-    --strongGray1: #303030;
-    --strongGray2: #252525;
-    --strongGray3: #141414;
+    --lightGray2: #c9c9c9;
+    --lightGray3: #9b9b9b;
+    --gray: #808080;
+    --strongGray1: #5d5d5d; /* footer */
+    --strongGray2: #303030;
+    --strongGray3: #252525;
+    --strongGray4: #141414;
     --secondaryColor: #000;
-    --bgColor: #faf9f8;
-    --footer: #e4e4e4;
+    /* DARKER */
+
     --blueLight1: #489ed7;
+    --purple: #6927FF;
+    --yellow1: #ffd538;
+    --beige1: #f4eddd;
+
+    --whiteBlue1: #f8f9fa;
 }
 
 /* === UTILIDADES === */
@@ -64,6 +74,7 @@ h5{font-size: 1.8rem;}
     object-position: center;
 }
 .line-height-08{line-height: .8;}
+.test{color: #73729A;}
 /* === HEADER === */
 .header{
     position: relative;
@@ -132,7 +143,8 @@ h5{font-size: 1.8rem;}
 .footer{
     width: 100%;
     min-height: 11rem;
-    background-color: var(--footer);
+    background-color: var(--strongGray1);
+    color: var(--primaryColor);
     /* border: 1px solid black; */
 }
 .footer__content{
@@ -162,7 +174,7 @@ h5{font-size: 1.8rem;}
     transition: background-color 175ms ease-out;
 }
 .btn:hover, .btn:focus{
-    color: var(--secondaryColor);
+    color: var(--primaryColor);
     background-color: var(--blueLight1);
 }
 .btn--inv{
@@ -189,9 +201,6 @@ h5{font-size: 1.8rem;}
 .btn--lg{
     padding: 1rem 1.5rem;
     font-size: 1.8rem;
-}
-.btn--rad-1{
-    border-radius: 1rem;
 }
 /* === CARDS === */
 .card__header{
