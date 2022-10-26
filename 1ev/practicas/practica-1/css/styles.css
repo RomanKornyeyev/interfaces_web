@@ -1,0 +1,18 @@
+@media all{
+    .cabecera{
+        border: 1px solid lightgray;
+        background-color: lightblue;
+        text-align: center;
+    }
+    p{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    body{text-align: left;}
+}
+@media screen {
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+}
