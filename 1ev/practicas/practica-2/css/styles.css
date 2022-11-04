@@ -337,9 +337,9 @@ table, tr, td{
     border-radius: 50%;
 }
 
-.light--red{animation: rojo 10s linear infinite;}
-.light--yellow{animation: amarillo 10s linear infinite;}
-.light--green{animation: verde 10s linear infinite;}
+.light--red{animation: rojo 5s linear infinite;}
+.light--yellow{animation: amarillo 5s linear infinite;}
+.light--green{animation: verde 5s linear infinite;}
 
 @keyframes rojo {
     0%,2%,40% {background: #c0392b;}
