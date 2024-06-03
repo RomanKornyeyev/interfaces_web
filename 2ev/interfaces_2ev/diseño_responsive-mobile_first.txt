@@ -1,0 +1,111 @@
+Diseño responsive			
+-----------------			
+Diseño para ordenador -> se adapta el movil 
+Jornada laboral -> pc
+Empresas B2B (Business 2 Business)
+- Formularios grandes -> informacion 
+- SEO (aparece la pagina en recomendados por meditos propios)
+- Mucho contenido informativo
+
+
+Mobile First	
+------------
+Diseño para movil -> Se adapta al ordenador {- contenido necesario
+					     - tiempos de carga corto
+					     - enlaces visibles
+					     - blacklinks -> no (enlaces externos)}
+
+
+Medidas
+-------
+px = pixeles pantallas tamaño fijo
+pt = puntos. Impresion 1'= 72 puntos
+em = medida escalable 16 pixeles
+% = escalable * 1em = 100%
+vh = view heigth
+vw = view width
+rem =  HTML
+
+
+Breakpoint -> puntos de interrupcion 
+----------
+320 - 480px = dispositivos moviles
+481 - 768px = tabletas
+769 - 1024px = portatiles 
+1025 - 1200px = PC escritorio
+>1201 = TV, pantallas x-large
+
+Emuladores
+----------
+Android SDK
+IOS SDK
+
+
+Diseños Web Responsive
+----------------------
+- Usabilidad: conciso, concreto
+- Tiempo de carga (tratar de evitar) {  - formularios
+					- contenido pesado (muchas fotos)
+				      }
+
+- Layout {	- PC: rejilla 12-16 columnas
+		- Movil: 3 columnas			
+	 }
+- Imagenes -> vectoriales(svg), aunque sea un poco mas pesado
+- Manejo {	- Click(raton) - ordendaro
+		- Tap(dedos) - movil
+		(botones, enlaces, ambos mas grandes)	
+	}
+- Orientacion {	- Landscape - hoorizontal
+		- Portatil - vertical
+		}
+
+
+Media Query
+------------
+
+@media {screen
+	all
+	speech
+	print
+}
+
+@import = CSS externo 
+link = enlace (HTML)
+
+operadores
+----------
+and
+or
+not
+only
+
+Breakpoints
+-----------
+width {- min-width - max-width}
+height{- min-height - max-height}
+
+"viewport" -> (head) te da la ventana visible que vas a tener en cada momento
+
+aspect-ratio(relacion width-height)
+
+hover {- mouse
+       - touchscreen }
+prefers-reduced-motion -> deshabilita animaciones
+prefers-contrast -> color, contraste
+resolution
+
+
+ALTERNATIVAS{
+		- flexbox (division de div) | [] | 
+		- grid (division en caja)  | | |
+}
+
+
+
+Media Query CSS3 
+---------------- 
+
+navegadores{	firefox 3.5, google chrome todas, safari 3 y post, opera 9.5 y post, internet explorer 9
+		}
+

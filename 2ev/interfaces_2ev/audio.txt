@@ -1,0 +1,56 @@
+1 bit = 0,1
+1 byte = 8 bits
+
+1 kb = 0,1
+1 KB = 8 kb
+
+Relacion de aspecto: 
+- 4:3
+- 16:9
+- 2,39:1 (mas largo que ancho el video)
+	-----------------
+	|		|
+	|||||||||||||||||
+	|		|
+	-----------------
+Codec: MP3 (mas utilizado)
+Tasa de muestreo: Hz
+Oido humano: 20Hz a 20KHz
+Unidad de medida: decibelio (1 dB) 
+		  3dB es el doble
+Para pasar de bit a Kbit
+1024 bit = 1 Kbit (2^10 = 1024)
+
+Formatos de audio
+----------------- 
+- sin comprimir {
+	los mas precisos  
+	los de mayor espacio
+	EJEMPLOS:	- PCM (pulse code mod) usado para CD y DVD 
+			- WAV (waveform audio file) windows
+			- AIFF (audio interchange file) apple
+		WAV y AIFF son contenedores PCM
+  }
+- compresion con perdida {
+  	menor calidad
+	menor tamaño
+	EJEMPLOS: 	- MP3 (MPEG -1 Audio Layer 3)
+			- AAC (Advanced Audio Coding) 
+			      sucesor del MP3, tiene mejor calidad. usado para M4A
+			- WMA (Windows media audio) exclusivo de Microsoft,
+			      tiene mas calidad que MP3
+			- OGG (Vorbis) contenedor audio+video+subtitulos
+			- Dolby Digital usado para DVD, Blu-ray, streaming
+  }
+- compresion sin perdida {
+	mayor tamaño
+	EJEMPLOS: 	- FLAC (free lossless audio codec) 60%
+			- ALAC (Apple free lossless audio codec)
+			- WMA (Windows media audio) exclusivo de microsoft
+			- Dolby True HD () home cinema
+			- DTS-HD () Master audio
+  }
+
+
+RA: Real audio, se usa en programas como VC, solo se escucha para streaming, 
+no se usa para ficheros. No tiene perdidas porque nos e almacena como tal

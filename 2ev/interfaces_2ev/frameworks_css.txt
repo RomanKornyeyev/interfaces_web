@@ -1,0 +1,67 @@
+FRAMEWORKS CSS
+-----------------
+ -Funciones, objetos predifinidos
+ -Biblioteca de hojas de estilo
+ -Código reutilizable
+Ejemplos de frameworks css:
+ 	1 Bootstrap: requiere añadir clases de elementos 
+ 	2 Fandation: permite crear páginas adaptadas a los dispositivos(responsive)
+ 	3 Tailwind CSS: nombres de clases de ayuda para estructura y estilos
+ 	4 Pure CSS: es muy ligero y adaptable a los dispositivos
+ 	5 Bulma: es ligero, open source, permite trabajar con Flexbox y tiene soporte para móviles
+	6 Picnic CSS: diseñar elementos HTML sin añadir clases complementos para web interactiva
+	7 Susy: basada en Flexbox numero limitado de columnas en diseño
+	8 Animate.CSS: trabajar con animaciones.
+	9 Skeleton: sencillo, ligero
+	10 PaperCss: Ofrece diseños únicos y originales
+
+CONTENIDO INTERACTIVO
+---------------------
+- Valor añadido a la web
+- Usuario participa de forma activa
+Requisitos:
+	- Debe involucrar al usuario de manera activa. 
+	Ej: 	- boton 'ver mas'
+		- cuestionarios y test: generar'leads', es decir, fidelizar al cliente
+		- Encuestas: opinión del cliente.Servicio postventa+
+		- Concursos y Sorteos: marketing promocional 'engagement' (usuario involucrado con la marca)
+		- Calculadora: Es una herramienta útil para el usuario de tal forma que se quedará durante más tiempo en la página web
+		- Graficos y mapas interactivos (son pestañas para mostrar la ubicación de la empresa) -> clips de video 360º	
+		- Configuradores 
+	- Ventajas: Ofrecer algo único y diferente a la competencia
+	- Prioriza el contenido de calidad al de cantidad
+	- Diapostivas: Galeria de imágenes
+	- Infografias interactivas (datos adicionales al hacer click)
+	- Juegos realcionados con la marca
+	- Storytelling: contar una historia de la página web
+
+Formula: coste/beneficio 
+	- coste: el tiempo de la empresa y los gastos de esta y una externa.
+	- beneficio: que genera la empresa
+
+HERRAMIENTAS
+------------
+-Todas tienen: una version gratuita y otra de pago
+1 Thinglink: si tenemos imagenes o graficos le podemos añadir el contenido interactivo mediante un boton, y te sale otro contenido 
+como un video,texto,enlace externo, musica o fotos
+ . contenido responsive
+2 Inforgram: Infogragias interactivas -> presentaciones, diagramas y mapas
+  Prezi
+3 Qzzr: para crear cuestionarios, encuestas, pistas a medida, imágenes, vídeo/audio y estadisticas de activdad usuarios
+optimizado para móviles
+4 Cincopa: útilizada para portadas de vídeo, podcast y diapositivas
+5 Adobe Spark: creadores de Flash Player y Creative Cloud: ofrece history telling interactivo(spark page), vídeo (Spark Video) y Imágnes (Spark Post)
+6 Genial.ly: presentaciones (Parecidas a canva, prezi, easelly) y infografias comparte contenido interactivos con redes sociales tambien comparte contenido interactivo con spotify
+7 Mapme: mapas interactivos, fotografias por satélite, mapas viales, mapas físicos y mapas optimizados para móviles
+8 Easelly: inforgrafias, presentacines 
+9 Animoto: online, gratis y creamos videos animados hasta 30seg
+10 Kahoot: usada en educacion
+11 Spline: online, gratis, usada para hacer objetos en 3D
+12 Powtoon: Presentaciones con animaciones
+13 InkleWritter: narraciones interactivas no lineales
+
+
+Etiquetas html interactivas: lenguajehtml.com/html/scripting/etiquetas-html-interactivas
+<details>
+<summary>
+<dialog>

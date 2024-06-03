@@ -1,0 +1,53 @@
+<audio>
+	<source 
+	autoplay 
+	preload=(el audio se cargue, "none", "metadata", "auto")
+	controls (botonoes)
+	loop (reproduce en bucle)
+	muted
+	mediagroup (tipo)
+	track (subtitulos)
+	>
+</audio>
+
+Navegador
+----------
+Internet explorer dede 9.0
+Mozilla Firefox dede 3.5
+Google Chrome desde 4.0
+Safari desde 4.0
+
+Formatos
+--------
+MP3 -> los 4
+Ogg -> Chorme, Mozilla
+Wav -> Chorme, Mozilla, Safari
+
+
+
+<video>
+	<source 
+	height, width
+	<track (src="" , kind="captions (transcripcion para sordos) / descriptions (ciegos)", srclang="idioma", label="")>
+	autoplay
+	preload=(el audio se cargue, "none", "metadata", "auto")
+	controls (play, stop)
+	loop
+	poster (imagen a mostrar)
+	muted
+	
+Navegador
+----------
+Internet explorer dede 9.0
+Mozilla Firefox dede 3.5
+Google Chrome desde 4.0
+Safari desde 4.0
+
+
+Formatos
+--------
+MP4 -> los 4
+Ogg -> Chorme, Mozilla
+WebM -> Chorme, Mozilla
+
+

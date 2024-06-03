@@ -1,0 +1,51 @@
+FRAMEWORKS CSS
+-------------------------
+Funciones, objetos predefinidos
+Biblioteca de hojas de estilo
+Código reutilizable
+
+Bootstrap: Requiere añadir clases de elementos.
+Foundation: paginas adaptadas a dispositivos (responsive).
+Tailwind CSS: nombres de clases, clases de ayuda para estructura y estilo.
+Pure CSS: (Yahoo) muy ligero, adaptable a los dispositivos
+Bulma: open source, ligero y sencillo. Trabajar con Flexbox. Soporte para moviles.
+Picnic CSS: diseñar elemento HTML sin necesidad de añadir clases. Complementos para crear una web interactiva.
+Susy: basado en flexbox, permite diseñar con un numero ilimitado de columnas.
+Animate CSS: trabajar con animaciones.
+Skeleton: muy sencillo, ligero.
+PaperCSS: diseños únicos y originales, paginas web diferentes, atrevidas.
+
+CONTENIDO INTERACTIVO -> debe involucrar al usuario
+-------------------------------------------------------------
+-Valor añadido a la web.
+-Usuario participa de forma activa.
+-Ofrecer algo unico y diferente a la competencia.
+-Priorizar el contenid de calidad frente a la cantidad
+-Juegos relacionados con la marca
+
+-Botón 'Ver más'.
+-Cuestionarios y test: generar 'leads' -> conseguir datos de clientes.
+-Encuestas de satisfacción, de opinión. Servicio postventa.
+-Concursos y sorteos: marketing promocional.
+-Engagement (usuario involucrado con la marca) -> Redes Sociales.
+-Calculadora -> Mayor tasa de conversion de los usuarios. Útil para ellos.
+-Gráficos y los mapas interactivos.
+-Diapositivas: galeria de imagenes
+-Infografías interactivas (datos adicionales al hacer clic)
+
+ThingLink -> Imagenes, gráficos -> contenido interactivo, botones. Texto, musica, video, enlace externo, fotos
+Contenido responsive
+Infogram	| Infografías->presentaciones
+Prezi           | Diagramas, mapas
+Qzzr -> cuestionarios, encuestas y listas a medida. Imagenes, video y audio.
+Cincopa -> optimizada para portales de video, podcast y diapositivas.
+Adobe Spark -> Storytelling interactivo (spark page), videos (spark video), imagenes (spark post)
+Genially -> Presentaciones (Parecido a Canva y Prezi). Infogrías. Made in Spain
+Mapme -> crear mapas interactivos, fotografías por satelite, mapas viales, mapas fisicos
+Mapas optimizados para moviles
+Easelly -> infografías, presentaciones.
+Animoto -> online, gratis. Videos animados (30sg).
+Kahoot: educacion, juegos, cuestionarios.
+Spline->generar objetos en 3D.
+Powtoon->presentaciones con animaciones.
+InkleWriter -> narraciones interactivas no lineales.

@@ -1,0 +1,51 @@
+UT6 y UT7 Usabilidad y Accesibilidad
+------------------------------------
+
+Usabilidad: contenido web mejorable, facil, intuitivo, usable, agradable, visual.
+Accesibilidad: discapacidad, idioma (en español, ingles). 
+
+Normas ISO (international standar organization) Estandares, no es oligatoria, pero recomendable, ademas  observa mas la calidad, diseño y usuario
+-----------
+- ISO/IEC 9126: calidad del software
+- ISO/DIS 9241: mide los resultados de uso de la web y la satisfaccion que tiene el usuario al navegar por nuestra pagina
+- ISO 13407: guía de calidad en el Diseño Centrado del Usuario. (DCU)
+- ISO 9214: ergonomia hombre-sistema
+
+Normas UNE (normas y recomnadciones que hace con la union europea)Dan pautas para la discapacidad de las personas, es española
+---------
+- 139803: 2004 - Accesibilidad/discapacidad. Da unas pautas que son WCAG1.0 (web contain accesibility)
+- 139803: 2012 - actualizada a una misma version de pautas pero de WCAG2.0 
+
+W3C: World Wide Web Consortium (W3C). es un consorcio internacional que genera recomendaciones y estándares que aseguran el crecimiento de la World Wide Web a largo plazo.​
+
+Usuarios
+--------
+- Capacidades perceptivas y cognitivas. Tenemos que pensar que no todo el mundo tiene el mismo nivel de usar una pagina web, es decir, que sea sencillo
+- Culturales: lenguaje, protocolos(simbolos o otro tipo de contenido que pueda afectar a algunos usuarios) 
+- Discapacidades: {	audtiva - subtitulos, etiquetas correctas
+			visual - narrador, alto contraste
+			motora - comandos de voz, teclado adaptado 
+		}
+- Tecnologicos: no todos tienen conexion alta (gran ancho de banda), memoria del ordenador, tamaño de la pantalla
+- Tipos de usuarios: {	anonimo - no da nada de informacion 
+			registrado - da la informacion limitada 
+			beta tester - hacen pruebas con los usuarios que quiera, antes de la implantacion
+			} 
+
+Navegacion Web
+--------------
+- Informacion accesible: facil de encontrar
+- Consistente: facil de usar sin instrucciones 🔍
+- Persistente: misma estructura y diseño (uniforme con la guia de estilos)
+- Sencillez de navegacion: saber donde estoy
+
+Herramientas para evaluar la accesibilidad
+------------------------------------------
+- Validador HTML de W3C
+- Validador CSS de W3C
+- WAVE: aplicacion online. Valida eñ sitio web completo
+
+Metodo por inspeccion (evaluacion euristica): profesionales
+
+Test de usuarios {- Beta testes "profesional"
+		  - resto (nosotros)	}

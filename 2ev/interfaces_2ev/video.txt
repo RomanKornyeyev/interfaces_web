@@ -1,0 +1,31 @@
+Formato de video
+----------------
+
+- Codec: protocolo de codificacion del video (H.264, MPEG-4, DIVX)
+- Contenedor: cogemos el video codificado (codec), mas otros datos 
+		(AVI, MP4, MOV)
+
+MP4: se combina con los codec H.264 y H.265. Es bueno para hacer streamings
+
+AVI: se usan varios codec, mas que el anterior y es mas usado. Una desventaja 
+ es que sus archivos son grandes.
+
+MKV: (matroska), su ventaja es las pistas de audio que tiene y tiene buena
+calidad en poco espacio.
+
+WebM: integracion video online HTML
+
+FLV: (Flash de Adobe) archivos de tamaño pequeño
+
+MOV: Formato desarrollado por Apple y usa quicktime. Tiene buena calidad
+
+WMV: De Microsoft, son de tamaño pequeño y poca calidad. Se utiliza en 
+streaming y para vistas previas. 
+
+DIVX y XVID: buena calidad
+
+H.264: (codec) es con perdidas. Es un formato universal que puede soportar 
+cualquier contenedor.
+
+RM: Real Media, sirve para enviar audio (RA), de video (RV) o ambas a la 
+vez (RM), el reproductor mas usado es el de Real Player
